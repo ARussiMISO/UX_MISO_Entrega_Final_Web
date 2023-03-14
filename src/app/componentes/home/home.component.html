@@ -7,9 +7,9 @@
     <br />
     <div class="calendar-container" fxLayout="column">
       <div fxLayout="row" fxLayoutAlign="space-between center">
-        <mat-icon class="play-arrow-left-calendar">play_arrow</mat-icon>
+        <mat-icon class="play-arrow-left-calendar">arrow_left</mat-icon>
         <h1>Febrero 2023</h1>
-        <mat-icon class="play-arrow-right-calendar">play_arrow</mat-icon>
+        <mat-icon class="play-arrow-right-calendar">arrow_right</mat-icon>
       </div>
       <br />
       <br />
@@ -97,7 +97,7 @@
 
 
       </div>
-      <br/>
+      <br />
       <div fxLayout="row" fxLayoutAlign="space-evenly center">
         <div class="number-calendar" fxLayout="row" fxLayoutAlign="center center">
           <h6>5</h6>
@@ -174,7 +174,7 @@
         </div>
 
       </div>
-      <br/>
+      <br />
       <div fxLayout="row" fxLayoutAlign="space-evenly center">
         <div class="number-calendar" fxLayout="row" fxLayoutAlign="center center">
           <h6>12</h6>
@@ -199,7 +199,7 @@
 
         </div>
 
-        <div class="number-calendar" fxLayout="row" fxLayoutAlign="center center">
+        <div class="number-calendar selected-number-calendar" fxLayout="row" fxLayoutAlign="center center">
           <h6>14</h6>
           &nbsp;
           <div fxLayout="column" fxLayoutAlign="space-evenly" class="container-items-calendar">
@@ -258,7 +258,7 @@
 
 
       </div>
-      <br/>
+      <br />
       <div fxLayout="row" fxLayoutAlign="space-evenly center">
         <div class="number-calendar" fxLayout="row" fxLayoutAlign="center center">
           <h6>19</h6>
@@ -338,7 +338,7 @@
         </div>
 
       </div>
-      <br/>
+      <br />
       <div fxLayout="row" fxLayoutAlign="space-evenly center">
         <div class="number-calendar" fxLayout="row" fxLayoutAlign="center center">
           <h6>26</h6>
@@ -420,9 +420,111 @@
 
     </div>
 
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div fxLayout="column">
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div class="item-calendario medicamento"></div>
+          &nbsp;
+          <h3>Medicamento</h3>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div class="item-calendario presion"></div>
+          &nbsp;
+          <h3>Presión</h3>
+        </div>
+
+      </div>
+
+      <div fxLayout="column">
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div class="item-calendario insulina"></div>
+          &nbsp;
+          <h3>Insulina</h3>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div class="item-calendario peso"></div>
+          &nbsp;
+          <h3>Peso</h3>
+        </div>
+
+
+      </div>
+
+      <div fxLayout="column">
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div class="item-calendario saturacion"></div>
+          &nbsp;
+          <h3>Saturación de O<sub>2</sub></h3>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <div class="item-calendario glucometria" style="border: 1px solid black;"></div>
+          &nbsp;
+          <h3>Glucometría</h3>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
 
   </div>
-  <div>
+  <div fxLayout="column">
+    <div fxLayout="row" fxLayoutAlign="space-between center" class="container-bienvenido" >
+      <div class="bienvenida">
+        Bienvenido Pepito Perez
+      </div>
+      <mat-icon class="icon-login">person_outline</mat-icon>
+    </div>
+    <br/>
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <button class="button-primary">Crear Alarma</button>
+      <button class="button-primary">Estadísticas</button>
+    </div>
+    <br/>
+    <div fxLayout="column" fxLayoutAlign="space-between none" class="container-lines">
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+      <div class="line-3"></div>
+      <div class="line-4"></div>
+
+    </div>
+    <br/>
+    <h3>Próximas alarmas</h3>
+    <div fxLayout="column" fxLayoutAlign="space-evenly none" class="proximas-alarmas">
+      <div class="item-proximas-alarmas" fxLayout="row" fxLayoutAlign="space-between none" >
+        <h3>Medicamento: Omeprazol</h3>
+        <mat-icon class="chevron">chevron_right</mat-icon>
+      </div>
+      <div class="item-proximas-alarmas" fxLayout="row" fxLayoutAlign="space-between none" >
+        <h3>Presión</h3>
+        <mat-icon class="chevron">chevron_right</mat-icon>
+      </div>
+      <div class="item-proximas-alarmas" fxLayout="row" fxLayoutAlign="space-between none" >
+        <h3>Medicamento: Vitamina A</h3>
+        <mat-icon class="chevron">chevron_right</mat-icon>
+      </div>
+      <div class="item-proximas-alarmas" fxLayout="row" fxLayoutAlign="space-between none" >
+        <h3>Insulina</h3>
+        <mat-icon class="chevron">chevron_right</mat-icon>
+      </div>
+      <div class="item-proximas-alarmas" fxLayout="row" fxLayoutAlign="space-between none" >
+        <h3>Peso</h3>
+        <mat-icon class="chevron">chevron_right</mat-icon>
+      </div>
+      <div class="item-proximas-alarmas" fxLayout="row" fxLayoutAlign="space-between none" >
+        <h3>Saturación de O<sub>2</sub></h3>
+        <mat-icon class="chevron">chevron_right</mat-icon>
+      </div>
+
+    </div>
+
+
+
 
   </div>
 </div>

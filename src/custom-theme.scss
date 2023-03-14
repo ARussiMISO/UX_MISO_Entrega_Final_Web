@@ -269,3 +269,14 @@ $accent-secondary: #EBEBEB;
   background-color: $accent-secondary;
 
 }
+
+.button-primary{
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  &:hover{
+    background-color: var(--primary-darker-color);
+  }
+}
+
+
