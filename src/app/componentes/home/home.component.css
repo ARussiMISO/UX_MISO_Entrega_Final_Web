@@ -1,0 +1,80 @@
+select{
+  text-align: center;
+  border-color: #006C4F;
+  color: #4C6358;
+  padding: 10px;
+  cursor: pointer;
+}
+select:focus-within{
+  outline: 0 none;
+}
+
+.container{
+  margin: 20px;
+}
+.play-arrow-left-calendar{
+  transform: rotate(180deg) scale(0.7);
+  margin-left: 20px;
+}
+
+.play-arrow-right-calendar{
+  transform: scale(0.7);
+  margin-right: 20px;
+}
+
+h1{
+  margin: 0px;
+}
+h5{
+  font-weight: bold;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+h6{
+  font-size: small;
+  margin: 0px;
+}
+
+.number-calendar{
+  width: 40px;
+  height: 55px;
+  padding-left: 10px;
+}
+
+.container-items-calendar{
+  height: 55px;
+}
+
+.items-calendar{
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+}
+
+.medicamento{
+  background-color: black;
+}
+.insulina{
+  background-color: #006C4D;
+}
+
+.saturacion{
+  background-color: #4CBF93;
+}
+
+.presion{
+  background-color: #577C8D;
+}
+
+.peso{
+  background-color: #A6CCDF;
+}
+
+.glucometria{
+  background-color: white;
+}
+
+
