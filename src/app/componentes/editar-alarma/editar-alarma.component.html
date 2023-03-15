@@ -16,7 +16,7 @@
       <div fxLayout="column" class="container-select">
         <p class="label">Tipo</p>
         <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
-          <p class="label">Seleccione una opción</p>
+          <p class="label">{{tipo}}</p>
           <mat-icon>arrow_drop_down</mat-icon>
         </div>
       </div>
@@ -24,7 +24,7 @@
       <div fxLayout="column" class="container-select">
         <p class="label">Nombre</p>
         <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
-          <p class="label">Seleccione una opción</p>
+          <p class="label">{{nombre}}</p>
 
         </div>
       </div>
@@ -32,7 +32,7 @@
       <div fxLayout="column" class="container-select">
         <p class="label">Repetir</p>
         <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
-          <p class="label">Seleccione una opción</p>
+          <p class="label">{{repetir}}</p>
           <mat-icon>arrow_drop_down</mat-icon>
         </div>
       </div>
@@ -40,7 +40,7 @@
       <div fxLayout="column" class="container-select">
         <p class="label">Sonido</p>
         <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
-          <p class="label">Seleccione una opción</p>
+          <p class="label">{{sonido}}</p>
           <mat-icon>arrow_drop_down</mat-icon>
         </div>
       </div>
@@ -48,7 +48,7 @@
       <div fxLayout="column" class="container-select">
         <p class="label">Posponer</p>
         <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
-          <p class="label">Seleccione una opción</p>
+          <p class="label">{{posponer}}</p>
           <mat-icon>arrow_drop_down</mat-icon>
         </div>
       </div>
@@ -66,8 +66,9 @@
   </div>
 
   <div fxLayout="row" fxLayoutAlign="end center">
-
-    <button class="button-primary" (click)="onCancel()">Crear alarma</button>
+    <button class="button-primary" (click)="onCancel()">Editar alarma</button>
+    &nbsp;&nbsp;&nbsp;
+    <button class="button-primary" (click)="onCancel()">Eliminar alarma</button>
     &nbsp;&nbsp;&nbsp;
     <button class="button-back" (click)="onCancel()">Cancelar</button>
 
@@ -75,3 +76,4 @@
 
 
 </div>
+

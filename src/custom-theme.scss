@@ -274,8 +274,12 @@ $accent-secondary: #EBEBEB;
   border: none;
   background-color: var(--primary-color);
   color: white;
+  cursor: pointer;
   &:hover{
     background-color: var(--primary-darker-color);
+  }
+  &:focus-within {
+    outline-color: #002116;
   }
 }
 
@@ -283,8 +287,12 @@ $accent-secondary: #EBEBEB;
   border: 1px solid #006C4F;
   color: #000000;
   background-color: white;
+  cursor: pointer;
   &:hover{
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  }
+  &:focus-within {
+    outline-color: #002116;
   }
 
 }
