@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './componentes/home/home.component';
 import { EstadisticasComponent } from './componentes/estadisticas/estadisticas.component';
+import { CrearAlarmaComponent } from './componentes/crear-alarma/crear-alarma.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    EstadisticasComponent
+    EstadisticasComponent,
+    CrearAlarmaComponent
   ],
   imports: [
     BrowserModule,
