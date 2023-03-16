@@ -58,3 +58,33 @@ mat-icon{
   transform: scaleX(-1) ;
   cursor: pointer;
 }
+
+select {
+  width: 276.5px;
+  height: 24.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  border-color: #006C4F;
+  color: #FFFFFF;
+  background-color: #B3CCBF;
+  padding: 10px;
+  cursor: pointer;
+}
+
+select:focus-within {
+  outline: 0 none;
+}
+
+input {
+  width: 255.5px;
+  height: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  border-color: #006C4F;
+  color: #FFFFFF;
+  background-color: #B3CCBF;
+  padding: 10px;
+  cursor: pointer;
+}
