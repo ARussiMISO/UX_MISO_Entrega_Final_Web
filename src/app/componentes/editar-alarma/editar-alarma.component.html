@@ -1,0 +1,79 @@
+<div fxLayout="column" fxLayoutAlign="space-around none" class="container">
+
+  <div fxLayout="row" fxLayoutAlign="space-around none">
+    <div fxLayout="column" fxLayoutAlign="space-around none" class="container">
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <div class="div-hora">
+          <p class="p-hora"><b>22</b></p>
+        </div>
+        <p class="p-puntos">:</p>
+        <div class="div-minuto">
+          <p class="p-hora"><b>15</b></p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div fxLayout="column" class="container-select">
+        <p class="label">Tipo</p>
+        <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
+          <p class="label">{{tipo}}</p>
+          <mat-icon>arrow_drop_down</mat-icon>
+        </div>
+      </div>
+      <br />
+      <div fxLayout="column" class="container-select">
+        <p class="label">Nombre</p>
+        <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
+          <p class="label">{{nombre}}</p>
+
+        </div>
+      </div>
+      <br />
+      <div fxLayout="column" class="container-select">
+        <p class="label">Repetir</p>
+        <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
+          <p class="label">{{repetir}}</p>
+          <mat-icon>arrow_drop_down</mat-icon>
+        </div>
+      </div>
+      <br />
+      <div fxLayout="column" class="container-select">
+        <p class="label">Sonido</p>
+        <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
+          <p class="label">{{sonido}}</p>
+          <mat-icon>arrow_drop_down</mat-icon>
+        </div>
+      </div>
+      <br />
+      <div fxLayout="column" class="container-select">
+        <p class="label">Posponer</p>
+        <div fxLayout="row" fxLayoutAlign="space-between center" class="item-label">
+          <p class="label">{{posponer}}</p>
+          <mat-icon>arrow_drop_down</mat-icon>
+        </div>
+      </div>
+
+
+    </div>
+    <div fxLayout="column" fxLayoutAlign="start center" class="container">
+      <div class="div-imagen" fxLayout="row" fxLayoutAlign="end end">
+        <mat-icon>edit</mat-icon>
+      </div>
+      <p class="label-fondo">Elegir fondo</p>
+
+    </div>
+
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="end center">
+    <button class="button-primary" (click)="onCancel()">Editar alarma</button>
+    &nbsp;&nbsp;&nbsp;
+    <button class="button-primary" (click)="onCancel()">Eliminar alarma</button>
+    &nbsp;&nbsp;&nbsp;
+    <button class="button-back" (click)="onCancel()">Cancelar</button>
+
+  </div>
+
+
+</div>
+

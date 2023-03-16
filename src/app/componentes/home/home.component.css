@@ -1,0 +1,178 @@
+select {
+  text-align: center;
+  border-color: #006C4F;
+  color: #4C6358;
+  padding: 10px;
+  cursor: pointer;
+}
+
+select:focus-within {
+  outline: 0 none;
+}
+
+.container {
+  margin: 20px;
+}
+
+.play-arrow-left-calendar {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.play-arrow-right-calendar {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h5 {
+  font-weight: bold;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+h6 {
+  font-size: small;
+  margin: 0px;
+}
+
+.number-calendar {
+  width: 40px;
+  height: 55px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.container-items-calendar {
+  height: 55px;
+}
+
+.items-calendar {
+  width: 8px;
+  height: 8px;
+  border-radius: 1px;
+}
+
+.medicamento {
+  background-color: black;
+}
+
+.insulina {
+  background-color: #006C4D;
+}
+
+.saturacion {
+  background-color: #4CBF93;
+}
+
+.presion {
+  background-color: #577C8D;
+}
+
+.peso {
+  background-color: #A6CCDF;
+}
+
+.glucometria {
+  background-color: white;
+}
+
+.selected-number-calendar {
+  border-style: dashed;
+  border-width: 1px;
+}
+
+.item-calendario {
+  width: 20px;
+  height: 20px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.container-bienvenido {
+  height: 75px;
+  width: 378.5px;
+}
+
+.bienvenida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  width: 276px;
+  height: 75px;
+  color: #4C6358;
+  border: 1px solid #4C6358;
+}
+
+.icon-login{
+  margin-right: 20px;
+  color: white;
+  background-color: #006C4D;
+  border-radius: 50%;
+  width: 37.5px;
+  height: 37.5px;
+  transform: scale(2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon-login:hover{
+  background-color: #004f34;
+
+}
+.button-primary{
+  width: 183px;
+  height: 75px;
+}
+
+.container-lines{
+  width: 378.5px;
+  height: 70px;
+}
+
+.line-1{
+  height: 11.5px;
+  background-color: #2AA379;
+}
+
+.line-2{
+  height: 11.5px;
+  background-color: #6BDBAD;
+}
+
+.line-3{
+  height: 11.5px;
+  background-color: #88F8C8;
+}
+
+.line-4{
+  height: 11.5px;
+  background-color: #BDFFDF;
+}
+
+h3{
+  color: #4C6358;
+}
+
+.proximas-alarmas{
+  padding: 20px;
+  width: 378.5px;
+  height: 314.6px;
+  background-color: #B3CCBF;
+}
+
+.item-proximas-alarmas{
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
